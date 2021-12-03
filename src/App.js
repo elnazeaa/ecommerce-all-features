@@ -7,7 +7,7 @@ import {
   CheckoutPage,
   OurTeamPage,
   MagazinPage,
-  AboutUs,
+  AboutUsPage,
   ContactUsPage,
 } from "./pages/index";
 import { Navbar } from "./components/index";
@@ -34,8 +34,8 @@ const App = (props) => {
         <Route exact path="/magazine">
           <MagazinPage />
         </Route>
-        <Route exact path="about-us">
-          <AboutUs />
+        <Route exact path="/about-us">
+          <AboutUsPage />
         </Route>
         <Route exact path="/contact-us">
           <ContactUsPage />

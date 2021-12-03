@@ -4,7 +4,7 @@ import SingleProductPage from "./singleProductPage";
 import CheckoutPage from "./checkoutPage";
 import OurTeamPage from "./ourTeamPage";
 import MagazinPage from "./magazinePage";
-import AboutUs from "./AboutUs";
+import AboutUsPage from "./AboutUsPage";
 import ContactUsPage from "./contactUsPage";
 export {
   HomePage,
@@ -13,6 +13,6 @@ export {
   CheckoutPage,
   OurTeamPage,
   MagazinPage,
-  AboutUs,
+  AboutUsPage,
   ContactUsPage,
 };
