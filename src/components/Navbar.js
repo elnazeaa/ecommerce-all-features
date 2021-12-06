@@ -78,7 +78,7 @@ const Wrapper = styled.nav`
   }
 
   .links a {
-    color: #496595;
+    color: #001436;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -87,7 +87,7 @@ const Wrapper = styled.nav`
     transition: 1s ease-in-out;
   }
   .links a:hover {
-    color: #496595;
+    color: #001436;
     padding-left: 1.5rem;
   }
 

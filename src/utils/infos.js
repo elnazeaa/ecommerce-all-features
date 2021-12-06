@@ -9,7 +9,7 @@ export const navLinks = [
   { id: 3, url: "/magazine", name: "magazine" },
   { id: 4, url: "/our-team", name: "our team" },
   { id: 5, url: "/about-us", name: "about us" },
-  { id: 6, url: "/contactus", name: "contact us" },
+  { id: 6, url: "/contact-us", name: "contact us" },
 ];
 
 export const contents = [

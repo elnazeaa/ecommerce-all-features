@@ -7,6 +7,10 @@ import Spinner from "./Spinner";
 import AboutHeader from "./about-us/AboutHeader";
 import OurCompany from "./about-us/OurCompany";
 import MultiContent from "./about-us/MultiContent";
+import ContactUsHeader from "./contact-us/ContactUsHeader";
+import ContactUsServices from "./contact-us/ContactUsServices";
+import ContactUsFeature from "./contact-us/ContactUsFeature";
+import Footer from "./footer/Footer";
 
 export {
   Header,
@@ -18,4 +22,8 @@ export {
   AboutHeader,
   OurCompany,
   MultiContent,
+  ContactUsHeader,
+  ContactUsServices,
+  ContactUsFeature,
+  Footer,
 };

@@ -10,7 +10,7 @@ import {
   AboutUsPage,
   ContactUsPage,
 } from "./pages/index";
-import { Navbar } from "./components/index";
+import { Footer, Navbar } from "./components/index";
 const App = (props) => {
   return (
     <BrowserRouter>
@@ -41,6 +41,7 @@ const App = (props) => {
           <ContactUsPage />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 };
