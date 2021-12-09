@@ -12,9 +12,8 @@ const AboutUsPage = (props) => {
     <>
       <AboutHeader />
       <ContactUsServices />
-      <OurCompany />
       <AboutWeAreDiff />
-      <MultiContent />
+      <OurCompany />
     </>
   );
 };
