@@ -1,16 +1,18 @@
 import React from "react";
 import {
-  ContactUsFeature,
+  ContactBack,
+  ContactOurTeam,
   ContactUsHeader,
-  ContactUsServices,
+  IntroduceUs,
 } from "../components/index";
 
 const ContactUsPage = (props) => {
   return (
     <>
       <ContactUsHeader />
-      <ContactUsServices />
-      <ContactUsFeature />
+      <IntroduceUs />
+      <ContactOurTeam />
+      <ContactBack />
     </>
   );
 };

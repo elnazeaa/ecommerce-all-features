@@ -86,8 +86,8 @@ const ContactUsServices = (props) => {
 
 const Wrapper = styled.section`
   .container {
+    margin: 3rem auto 0 auto;
     width: 85%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;

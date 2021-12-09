@@ -1,11 +1,19 @@
 import React from "react";
-import { AboutHeader, MultiContent, OurCompany } from "../components/index";
+import {
+  AboutHeader,
+  AboutWeAreDiff,
+  MultiContent,
+  OurCompany,
+  ContactUsServices,
+} from "../components/index";
 
 const AboutUsPage = (props) => {
   return (
     <>
       <AboutHeader />
+      <ContactUsServices />
       <OurCompany />
+      <AboutWeAreDiff />
       <MultiContent />
     </>
   );

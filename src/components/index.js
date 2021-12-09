@@ -9,8 +9,11 @@ import OurCompany from "./about-us/OurCompany";
 import MultiContent from "./about-us/MultiContent";
 import ContactUsHeader from "./contact-us/ContactUsHeader";
 import ContactUsServices from "./contact-us/ContactUsServices";
-import ContactUsFeature from "./contact-us/ContactUsFeature";
 import Footer from "./footer/Footer";
+import AboutWeAreDiff from "./about-us/About_WeAreDiff";
+import IntroduceUs from "./contact-us/IntroduceUs";
+import ContactOurTeam from "./contact-us/Contact_OurTeam";
+import ContactBack from "./contact-us/Contact_Back";
 
 export {
   Header,
@@ -24,6 +27,9 @@ export {
   MultiContent,
   ContactUsHeader,
   ContactUsServices,
-  ContactUsFeature,
   Footer,
+  AboutWeAreDiff,
+  IntroduceUs,
+  ContactOurTeam,
+  ContactBack,
 };

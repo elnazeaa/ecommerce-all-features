@@ -2,6 +2,20 @@ import service1 from "../images/about/single_service_01.jpg";
 import service2 from "../images/about/single_service_02.jpg";
 import service3 from "../images/about/single_service_03.jpg";
 import service4 from "../images/about/single_service_04.jpg";
+import number1 from "../images/contact-img/01.jpg";
+import number2 from "../images/contact-img/02.jpg";
+import number3 from "../images/contact-img/03.jpg";
+import number4 from "../images/contact-img/04.jpg";
+import number5 from "../images/contact-img/05.jpg";
+import number6 from "../images/contact-img/06.jpg";
+import number7 from "../images/contact-img/07.jpg";
+import number8 from "../images/contact-img/08.jpg";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaGooglePlusG,
+  FaInstagram,
+} from "react-icons/fa";
 
 export const navLinks = [
   { id: 1, url: "/", name: "home" },
@@ -49,4 +63,70 @@ export const contents = [
     ],
     image: service4,
   },
+];
+
+export const teams = [
+  {
+    id: 1,
+    img: number1,
+    name: "Jason Smith",
+    job: "PRESIDENT & CEO",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 2,
+    img: number2,
+    name: "Jeffrey Rockenson",
+    job: "EXECUTIVE VICE PRESIDENT",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 3,
+    img: number3,
+    name: "Jason Smith",
+    job: "GENERAL MANAGER",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 4,
+    img: number4,
+    name: "Jason Smith",
+    job: "STRATEGIC CONSULTANT",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 5,
+    img: number5,
+    name: "Jeffrey Rockenson",
+    job: "PRESIDENT & CEO",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 6,
+    img: number6,
+    name: "Jason Smith",
+    job: "EXECUTIVE VICE PRESIDENT",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 7,
+    img: number7,
+    name: "Jason Smith",
+    job: "GENERAL MANAGER",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+  {
+    id: 8,
+    img: number8,
+    name: "Jason Smith",
+    job: "PRESIDENT & CEO",
+    desc: "I am an ambitious workaholic, but apart from that, pretty simple person.",
+  },
+];
+
+export const icons = [
+  { id: 1, name: <FaTwitter /> },
+  { id: 2, name: <FaFacebookF /> },
+  { id: 3, name: <FaGooglePlusG /> },
+  { id: 4, name: <FaInstagram /> },
 ];

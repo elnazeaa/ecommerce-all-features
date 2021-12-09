@@ -12,46 +12,50 @@ const MultiContent = (props) => {
   };
   return (
     <Wrapper>
-      <div className="sideBar">
-        {contents.map((item) => {
-          return (
-            <button
-              className={`btn ${index === item.id ? "active" : ""}`}
-              key={item.id}
-              onClick={() => {
-                handleBtnClick(item.id);
-              }}
-            >
-              {item.name}
-            </button>
-          );
-        })}
-      </div>
-      <div className="content">
-        <img
-          src={contents[index].image}
-          alt={contents[index].name}
-          className="img"
-        />
-        <h2 className="title">{contents[index].name}</h2>
-        <p className="firstText">{contents[index].text[0]}</p>
-        <p className="secondText">{contents[index].text[1]}</p>
+      <div className="container">
+        <div className="content">
+          <img
+            src={contents[index].image}
+            alt={contents[index].name}
+            className="img"
+          />
+          <h2 className="title">{contents[index].name}</h2>
+          <p className="firstText">{contents[index].text[0]}</p>
+          <p className="secondText">{contents[index].text[1]}</p>
+        </div>
+        <div className="sideBar">
+          {contents.map((item) => {
+            return (
+              <button
+                className={`btn ${index === item.id ? "active" : ""}`}
+                key={item.id}
+                onClick={() => {
+                  handleBtnClick(item.id);
+                }}
+              >
+                {item.name}
+              </button>
+            );
+          })}
+        </div>
       </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 80%;
+  padding:3rem 10%;
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 2rem;
+}
+  }
   .sideBar {
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
-    flex-basis: 30%;
+    flex:1 1 30rem;
   }
   .btn {
     background: #496595;
@@ -68,7 +72,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-basis: 30%;
+    flex:4 1 40rem;
   }
   .active {
     color: #e9723d;
@@ -81,35 +85,10 @@ const Wrapper = styled.div`
     margin-bottom: 0px;
     line-height: 2;
   }
-
-  @media only screen and (min-width: 200px) and (max-width: 768px) {
-    width: 100%;
-    img {
-      width: 100%;
-      height: auto;
-    }
-    .content {
-      margin: 1rem 0;
-      flex-basis: 100%;
-    }
-    .sideBar {
-      flex-basis: 100%;
-    }
+  img{
+    width:100%
   }
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    width: 100%;
-    img {
-      width: 100%;
-      height: auto;
-    }
-    .content {
-      margin: 1rem 0;
-      flex-basis: 50%;
-    }
-    .sideBar {
-      flex-basis: 40%;
-    }
-  }
+ 
 `;
 
 export default MultiContent;
