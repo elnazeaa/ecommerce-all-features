@@ -16,6 +16,57 @@ import {
   FaGooglePlusG,
   FaInstagram,
 } from "react-icons/fa";
+import img1 from "../images/slider/01.jpg";
+import img2 from "../images/slider/02.jpg";
+import img3 from "../images/slider/03.jpg";
+import img4 from "../images/slider/04.jpg";
+import img5 from "../images/slider/05.jpg";
+import img6 from "../images/slider/06.jpg";
+import img7 from "../images/slider/07.jpg";
+import img8 from "../images/slider/08.jpg";
+import img9 from "../images/slider/09.jpg";
+import img10 from "../images/slider/10.jpg";
+import img11 from "../images/slider/11.jpg";
+import img12 from "../images/slider/12.jpg";
+import img13 from "../images/slider/13.jpg";
+import img14 from "../images/slider/14.jpg";
+import img15 from "../images/slider/15.jpg";
+import img16 from "../images/slider/16.jpg";
+import img17 from "../images/slider/17.jpg";
+import img18 from "../images/slider/18.jpg";
+import img19 from "../images/slider/19.jpg";
+import img20 from "../images/slider/20.jpg";
+import img21 from "../images/slider/21.jpg";
+import img22 from "../images/slider/22.jpg";
+import img23 from "../images/slider/23.jpg";
+import img24 from "../images/slider/24.jpg";
+
+export const imgs = [
+  { id: 1, img: img1 },
+  { id: 2, img: img2 },
+  { id: 3, img: img3 },
+  { id: 4, img: img4 },
+  { id: 5, img: img5 },
+  { id: 6, img: img6 },
+  { id: 7, img: img7 },
+  { id: 8, img: img8 },
+  { id: 9, img: img9 },
+  { id: 10, img: img10 },
+  { id: 11, img: img11 },
+  { id: 12, img: img12 },
+  { id: 13, img: img13 },
+  { id: 14, img: img14 },
+  { id: 15, img: img15 },
+  { id: 16, img: img16 },
+  { id: 17, img: img17 },
+  { id: 18, img: img18 },
+  { id: 19, img: img19 },
+  { id: 20, img: img20 },
+  { id: 21, img: img21 },
+  { id: 22, img: img22 },
+  { id: 23, img: img23 },
+  { id: 24, img: img24 },
+];
 
 export const navLinks = [
   { id: 1, url: "/", name: "home" },

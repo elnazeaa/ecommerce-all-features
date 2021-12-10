@@ -14,6 +14,9 @@ import AboutWeAreDiff from "./about-us/About_WeAreDiff";
 import IntroduceUs from "./contact-us/IntroduceUs";
 import ContactOurTeam from "./contact-us/Contact_OurTeam";
 import ContactBack from "./contact-us/Contact_Back";
+import NewsSearchInput from "./hackerNews/NewsSearchInput";
+import News from "./hackerNews/News";
+import NewsHeader from "./hackerNews/NewsHeader";
 
 export {
   Header,
@@ -32,4 +35,7 @@ export {
   IntroduceUs,
   ContactOurTeam,
   ContactBack,
+  NewsSearchInput,
+  News,
+  NewsHeader,
 };
