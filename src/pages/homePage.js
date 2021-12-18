@@ -1,10 +1,11 @@
 import React from "react";
-import { Header } from "../components/index";
+import { Header, Services } from "../components/index";
 
 const HomePage = (props) => {
   return (
     <>
       <Header />
+      <Services />
     </>
   );
 };

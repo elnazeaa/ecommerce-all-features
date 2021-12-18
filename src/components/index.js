@@ -17,6 +17,8 @@ import ContactBack from "./contact-us/Contact_Back";
 import NewsSearchInput from "./hackerNews/NewsSearchInput";
 import News from "./hackerNews/News";
 import NewsHeader from "./hackerNews/NewsHeader";
+import AboutSection from "./homePage/AboutSection";
+import Services from "./homePage/Services";
 
 export {
   Header,
@@ -38,4 +40,6 @@ export {
   NewsSearchInput,
   News,
   NewsHeader,
+  AboutSection,
+  Services,
 };

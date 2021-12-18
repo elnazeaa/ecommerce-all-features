@@ -31,27 +31,26 @@ const News = (props) => {
   return (
     <Wrapper>
       <div className="container">
-        {all_news &&
-          all_news.map((news, index) => {
-            return (
-              <div className="box" key={index}>
-                <div className="img">
-                  <img
-                    src={news.urlToImage === null ? noImg : news.urlToImage}
-                    alt={news.source.name}
-                  />
-                </div>
-                <div className="content">
-                  <h5 className="title">{news.title}</h5>
-                  <time dateTime={news.publishedAt}>
-                    {moment(news.publishedAt).format("ll")}
-                  </time>
-                  <p>{news.content}</p>
-                  <Link to={news.url}>Go To Link</Link>
-                </div>
+        {all_news.map((news, index) => {
+          return (
+            <div className="box" key={index}>
+              <div className="img">
+                <img
+                  src={news.urlToImage === null ? noImg : news.urlToImage}
+                  alt={news.source.name}
+                />
               </div>
-            );
-          })}
+              <div className="content">
+                <h5 className="title">{news.title}</h5>
+                <time dateTime={news.publishedAt}>
+                  {moment(news.publishedAt).format("ll")}
+                </time>
+                <p>{news.content}</p>
+                <Link to={news.url}>Go To Link</Link>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </Wrapper>
   );

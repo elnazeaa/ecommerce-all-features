@@ -41,6 +41,66 @@ import img22 from "../images/slider/22.jpg";
 import img23 from "../images/slider/23.jpg";
 import img24 from "../images/slider/24.jpg";
 
+import img25 from "../images/home/01.png";
+import img26 from "../images/home/02.png";
+import img27 from "../images/home/03.png";
+import img28 from "../images/home/04.png";
+import img29 from "../images/home/05.png";
+import img30 from "../images/home/06.png";
+import img31 from "../images/home/07.png";
+import img32 from "../images/home/08.png";
+
+export const services = [
+  {
+    id: 1,
+    name: "New Trends",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img25,
+  },
+  {
+    id: 1,
+    name: "Ability to shop",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img26,
+  },
+  {
+    id: 1,
+    name: "New experience",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img27,
+  },
+  {
+    id: 1,
+    name: "Personal Style",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img28,
+  },
+  {
+    id: 1,
+    name: "House of Colour",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img29,
+  },
+  {
+    id: 1,
+    name: "Transformational effect",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img30,
+  },
+  {
+    id: 1,
+    name: "Personality and help",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img31,
+  },
+  {
+    id: 1,
+    name: "Styling Consultant",
+    txt: "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Esse, Animi?",
+    img: img32,
+  },
+];
+
 export const imgs = [
   { id: 1, img: img1 },
   { id: 2, img: img2 },

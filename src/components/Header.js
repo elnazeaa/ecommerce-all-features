@@ -1,30 +1,33 @@
 import React from "react";
-import mesh from "../images/mesh.jpg";
 import styled from "styled-components";
-import onlineShopping from "../images/online-shopping.png";
+import onlineShop from "../images/slider/1.svg";
 
 const Header = (props) => {
   return (
-    <Wrapper style={{ backgroundImage: `url(${mesh})` }}>
-      <div className="content">
-        <h1>They are based on a variety of factors including</h1>
-        <p>
-          Our mission is to help consumers use the power of information to
-          easily find, compare and buy products online - in less time and for
-          the best price! You can read unbiased product reviews and compare
-          prices online.
-        </p>
+    <Wrapper>
+      <div className="container">
+        <div className="content">
+          <h1>They are based on a variety of factors including</h1>
+          <p>
+            Our mission is to help consumers use the power of information to
+            easily find, compare and buy products online - in less time and for
+            the best price! You can read unbiased product reviews and compare
+            prices online.
+          </p>
+        </div>
+        <div className="img">
+          <img src={onlineShop} alt="name" className="svgImg" />
+        </div>
       </div>
-      <img src={onlineShopping} alt="name" className="svgImg" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
+        viewBox="0 0 1440 250"
         className="waveSvg"
       >
         <path
-          fill="#fff"
-          fillOpacity="1"
-          d="M0,224L40,218.7C80,213,160,203,240,176C320,149,400,107,480,122.7C560,139,640,213,720,218.7C800,224,880,160,960,133.3C1040,107,1120,117,1200,112C1280,107,1360,85,1400,74.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          fill="#FFF8E8"
+          fill-opacity="1"
+          d="M0,64L60,80C120,96,240,128,360,165.3C480,203,600,245,720,234.7C840,224,960,160,1080,128C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
     </Wrapper>
@@ -32,14 +35,28 @@ const Header = (props) => {
 };
 
 const Wrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  padding: 6.25rem;
-  box-sizing: border-box;
+  background-color: #baaaf7;
+  padding: 3rem 10%;
   position: relative;
+  height: 70vh;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .content {
+    flex: 1 1 40rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .img {
+    flex: 1 1 40rem;
+    z-index: 10000;
+  }
+
   .svgImg {
     z-index: 1;
   }
@@ -49,18 +66,16 @@ const Wrapper = styled.div`
     bottom: 0;
     left: 0;
   }
-  .content {
-    width: 40%;
-  }
   .content h1 {
-    color: #495464;
-    font-weight: 900;
+    color: #010003;
+    font-weight: normal;
     letter-spacing: 0.08125rem;
+    font-size: 4rem;
   }
   .content p {
     font-size: 1.125rem;
     line-height: 1.5;
-    color: #495464;
+    color: #010003;
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     padding: 1.25rem;
