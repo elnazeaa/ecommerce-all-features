@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import {
   HomePage,
-  ProductPage,
   SingleProductPage,
   CheckoutPage,
   OurTeamPage,
@@ -19,9 +18,6 @@ const App = (props) => {
       <Switch>
         <Route exact path="/">
           <HomePage />
-        </Route>
-        <Route exact path="/products">
-          <ProductPage />
         </Route>
         <Route exact path="/singleProduct">
           <SingleProductPage />

@@ -63,7 +63,7 @@ const Wrapper = styled.section`
   }
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
   }
 

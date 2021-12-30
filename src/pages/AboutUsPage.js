@@ -2,8 +2,6 @@ import React from "react";
 import {
   AboutHeader,
   AboutWeAreDiff,
-  MultiContent,
-  OurCompany,
   ContactUsServices,
 } from "../components/index";
 
@@ -13,7 +11,6 @@ const AboutUsPage = (props) => {
       <AboutHeader />
       <ContactUsServices />
       <AboutWeAreDiff />
-      <OurCompany />
     </>
   );
 };

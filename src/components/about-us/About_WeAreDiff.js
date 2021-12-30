@@ -3,7 +3,7 @@ import styled from "styled-components";
 import icon1 from "../../images/about/icon1.svg";
 import icon2 from "../../images/about/icon2.svg";
 import icon3 from "../../images/about/icon3.svg";
-import aboutGood from "../../images/about/about_good.png";
+import aboutGood from "../../images/about/about.svg";
 
 const AboutWeAreDiff = (props) => {
   return (
@@ -56,6 +56,14 @@ const Wrapper = styled.section`
   }
   .content {
     flex: 1 1 40rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+  }
+  .content p {
+    font-size: 2rem;
+    letter-spacing: 1.1px;
+    line-height: 1.7;
   }
   .img {
     flex: 1 1 40rem;
@@ -65,7 +73,7 @@ const Wrapper = styled.section`
   }
   .content h5 {
     color: #18304b;
-    font-size: 40px;
+    font-size: 4rem;
     display: block;
     font-weight: 700;
     line-height: 1.3;
@@ -79,8 +87,15 @@ const Wrapper = styled.section`
     justify-content: start;
     align-items: center;
     gap: 1rem;
-    width: 427px;
     margin: 1rem 0;
+    padding: 0 9rem 0 0;
+  }
+  .contentOne p,
+  .contentTwo p,
+  .contentThree p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
   }
 `;
 

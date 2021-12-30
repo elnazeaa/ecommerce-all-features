@@ -126,7 +126,8 @@ const Footer = (props) => {
 };
 
 const Wrapper = styled.section`
-  background-color: #012e67;
+  background-color: #baaaf7;
+
   .container {
     width: 80%;
     margin: 0 auto;

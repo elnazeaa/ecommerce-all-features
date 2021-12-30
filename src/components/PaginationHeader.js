@@ -26,14 +26,28 @@ const Wrapper = styled.div`
   background: linear-gradient(173deg, #c2d1e5 64%, #fff 30%);
   .container {
     display: flex;
-    width: 70%;
-    margin: 0 auto;
-    padding: 8rem;
     justify-content: center;
     align-items: center;
+    padding: 3rem 10%;
+    flex-wrap: wrap;
   }
   .img {
     width: 100%;
+  }
+  .textSection {
+    flex: 1 1 40rem;
+  }
+  .imgSection {
+    flex: 1 1 40rem;
+  }
+  .textSection h1 {
+    font-size: 4rem;
+  }
+  .textSection p {
+    font-size: 20px;
+    padding: 0 5rem 0 0;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
   }
   @media screen and (min-width: 150px) and (max-width: 755px) {
     background: linear-gradient(180deg, #c2d1e5 83%, #fff 17%);

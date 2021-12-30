@@ -13,7 +13,7 @@ const Services = (props) => {
       <div className="container">
         {services.map((item) => {
           return (
-            <div className="box">
+            <div className="box" key={item.id}>
               <div className="img">
                 <img src={item.img} alt={item.name} />
               </div>
@@ -93,6 +93,12 @@ const Wrapper = styled.section`
     padding: 1rem 0;
     line-height: 1.8;
     text-align: center;
+  }
+  @media (max-width: 425px) {
+    padding: 2rem 5%;
+    .container {
+      grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    }
   }
 `;
 

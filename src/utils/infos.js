@@ -130,7 +130,6 @@ export const imgs = [
 
 export const navLinks = [
   { id: 1, url: "/", name: "home" },
-  { id: 2, url: "/products", name: "products" },
   { id: 3, url: "/magazine", name: "magazine" },
   { id: 4, url: "/our-team", name: "our team" },
   { id: 5, url: "/about-us", name: "about us" },
@@ -240,4 +239,43 @@ export const icons = [
   { id: 2, name: <FaFacebookF /> },
   { id: 3, name: <FaGooglePlusG /> },
   { id: 4, name: <FaInstagram /> },
+];
+
+export const accr = [
+  {
+    id: 1,
+    title: "What do you mean question?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
+  {
+    id: 2,
+    title: "Lorem ipsum, or lipsum as it is sometimes known?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
+  {
+    id: 3,
+    title: "unknown typesetter in the 15th century who is thought?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
+  {
+    id: 4,
+    title: "The passage experienced a surge in popularity during the 1960?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
+  {
+    id: 5,
+    title: "on templates, websites, and stock designs?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
+  {
+    id: 6,
+    title: "is dummy text used in laying out print?",
+    content:
+      "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.",
+  },
 ];

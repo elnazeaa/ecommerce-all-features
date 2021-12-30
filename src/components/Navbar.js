@@ -79,7 +79,7 @@ const Wrapper = styled.nav`
 
   .links a {
     color: #001436;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-transform: capitalize;
     letter-spacing: 1px;
     display: block;

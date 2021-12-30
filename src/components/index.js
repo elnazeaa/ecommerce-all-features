@@ -5,7 +5,6 @@ import PaginationContent from "./PaginationContent";
 import PaginationPage from "./PaginationPages";
 import Spinner from "./Spinner";
 import AboutHeader from "./about-us/AboutHeader";
-import OurCompany from "./about-us/OurCompany";
 import MultiContent from "./about-us/MultiContent";
 import ContactUsHeader from "./contact-us/ContactUsHeader";
 import ContactUsServices from "./contact-us/ContactUsServices";
@@ -19,6 +18,7 @@ import News from "./hackerNews/News";
 import NewsHeader from "./hackerNews/NewsHeader";
 import AboutSection from "./homePage/AboutSection";
 import Services from "./homePage/Services";
+import Relation from "./Relation.js/Relation";
 
 export {
   Header,
@@ -28,7 +28,6 @@ export {
   PaginationPage,
   Spinner,
   AboutHeader,
-  OurCompany,
   MultiContent,
   ContactUsHeader,
   ContactUsServices,
@@ -42,4 +41,5 @@ export {
   NewsHeader,
   AboutSection,
   Services,
+  Relation,
 };

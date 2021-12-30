@@ -40,11 +40,10 @@ const Wrapper = styled.div`
   h1 {
     text-align: center;
   }
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin: 0 auto;
+  padding: 3rem 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
   .page_card {
     width: 350px;
     background: #f4f4f4;
