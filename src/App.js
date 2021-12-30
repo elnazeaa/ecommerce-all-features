@@ -19,22 +19,16 @@ const App = (props) => {
         <Route exact path="/ecommerce-all-features">
           <HomePage />
         </Route>
-        <Route exact path="/singleProduct">
-          <SingleProductPage />
-        </Route>
-        <Route exact path="/checkout">
-          <CheckoutPage />
-        </Route>
-        <Route exact path="/our-team">
+        <Route exact path="/ecommerce-all-features/our-team">
           <OurTeamPage />
         </Route>
-        <Route exact path="/magazine">
+        <Route exact path="/ecommerce-all-features/magazine">
           <MagazinPage />
         </Route>
-        <Route exact path="/about-us">
+        <Route exact path="/ecommerce-all-features/about-us">
           <AboutUsPage />
         </Route>
-        <Route exact path="/contact-us">
+        <Route exact path="/ecommerce-all-features/contact-us">
           <ContactUsPage />
         </Route>
       </Switch>
