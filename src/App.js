@@ -16,7 +16,7 @@ const App = (props) => {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/ecommerce-all-features">
           <HomePage />
         </Route>
         <Route exact path="/singleProduct">
