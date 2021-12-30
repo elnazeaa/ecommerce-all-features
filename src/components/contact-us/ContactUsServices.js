@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import serviceBg from "../../images/contact-img/Service-bg.jpg";
+// import serviceBg from "../../images/Service-bg.jpg";
 
 import {
   BsGearFill,
@@ -141,7 +141,7 @@ const Wrapper = styled.section`
     font-weight: bold;
   }
   .cols:hover {
-    background-image: url(${serviceBg});
+    ${"" /* background-image: url(${serviceBg}); */}
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
