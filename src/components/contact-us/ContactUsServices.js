@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import serviceBg from "../../images/contact-img/service-bg.jpg";
+import serviceBg from "../../images/contact-img/Service-bg.jpg";
 
 import {
   BsGearFill,
