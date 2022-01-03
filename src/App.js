@@ -22,9 +22,6 @@ const App = (props) => {
         <Route exact path="/ecommerce-all-features/our-team">
           <OurTeamPage />
         </Route>
-        <Route exact path="/ecommerce-all-features/magazine">
-          <MagazinPage />
-        </Route>
         <Route exact path="/ecommerce-all-features/about-us">
           <AboutUsPage />
         </Route>

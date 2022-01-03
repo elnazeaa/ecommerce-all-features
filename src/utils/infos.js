@@ -130,7 +130,7 @@ export const imgs = [
 
 export const navLinks = [
   { id: 1, url: "/ecommerce-all-features", name: "home" },
-  { id: 3, url: "/ecommerce-all-features/magazine", name: "magazine" },
+  // { id: 3, url: "/ecommerce-all-features/magazine", name: "magazine" },
   { id: 4, url: "/ecommerce-all-features/our-team", name: "our team" },
   { id: 5, url: "/ecommerce-all-features/about-us", name: "about us" },
   { id: 6, url: "/ecommerce-all-features/contact-us", name: "contact us" },
